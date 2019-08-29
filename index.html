@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello!</title>
+    <title>Memory game</title>
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
@@ -279,7 +279,7 @@
               <Texto mensajeFinal={true} text={"Movimientos: " + this.getFloor(this.state.movements)}/>
               <Texto mensajeFinal={true} text={"Encontradas " + this.state.found + "/" + this.state.animals.length}/>
               
-              <Texto mensajeFinal={false} text={"¡Juego completado!"} finished={this.state.finished}/>
+              <Texto mensajeFinal={false} text={"Juego completado!"} finished={this.state.finished}/>
               
               <div style={style} >
                 {
